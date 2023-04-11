@@ -99,16 +99,50 @@ CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.s"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/D/VS_cpp/Tower-defence-game/src/TowerDefence.cpp -o CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.s
 
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj: CMakeFiles/tower_defence.dir/flags.make
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj: CMakeFiles/tower_defence.dir/includes_CXX.rsp
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj: C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj: CMakeFiles/tower_defence.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/D/VS_cpp/Tower-defence-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj -MF CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj.d -o CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp
+
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tower_defence.dir/src/Clickable.cpp.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp > CMakeFiles/tower_defence.dir/src/Clickable.cpp.i
+
+CMakeFiles/tower_defence.dir/src/Clickable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tower_defence.dir/src/Clickable.cpp.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp -o CMakeFiles/tower_defence.dir/src/Clickable.cpp.s
+
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj: CMakeFiles/tower_defence.dir/flags.make
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj: CMakeFiles/tower_defence.dir/includes_CXX.rsp
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj: C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj: CMakeFiles/tower_defence.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/D/VS_cpp/Tower-defence-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj -MF CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj.d -o CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp
+
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tower_defence.dir/src/SquareButton.cpp.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp > CMakeFiles/tower_defence.dir/src/SquareButton.cpp.i
+
+CMakeFiles/tower_defence.dir/src/SquareButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tower_defence.dir/src/SquareButton.cpp.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp -o CMakeFiles/tower_defence.dir/src/SquareButton.cpp.s
+
 # Object files for target tower_defence
 tower_defence_OBJECTS = \
 "CMakeFiles/tower_defence.dir/src/main.cpp.obj" \
-"CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj"
+"CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj" \
+"CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj" \
+"CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj"
 
 # External object files for target tower_defence
 tower_defence_EXTERNAL_OBJECTS =
 
 tower_defence.exe: CMakeFiles/tower_defence.dir/src/main.cpp.obj
 tower_defence.exe: CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj
+tower_defence.exe: CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj
+tower_defence.exe: CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj
 tower_defence.exe: CMakeFiles/tower_defence.dir/build.make
 tower_defence.exe: C:/SFML/lib/libsfml-graphics-d.a
 tower_defence.exe: C:/SFML/lib/libsfml-window-d.a
@@ -116,7 +150,7 @@ tower_defence.exe: C:/SFML/lib/libsfml-audio-d.a
 tower_defence.exe: C:/SFML/lib/libsfml-system-d.a
 tower_defence.exe: CMakeFiles/tower_defence.dir/linkLibs.rsp
 tower_defence.exe: CMakeFiles/tower_defence.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/D/VS_cpp/Tower-defence-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tower_defence.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/D/VS_cpp/Tower-defence-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tower_defence.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/tower_defence.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/tower_defence.dir/objects.a @CMakeFiles/tower_defence.dir/objects1
 	C:/msys64/mingw64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/tower_defence.dir/objects.a -Wl,--no-whole-archive -o tower_defence.exe -Wl,--out-implib,libtower_defence.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/tower_defence.dir/linkLibs.rsp

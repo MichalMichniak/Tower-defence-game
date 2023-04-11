@@ -1,23 +1,24 @@
 #ifndef TOWERDEFENCE_HPP
 #define TOWERDEFENCE_HPP
 
-#include <SFML/Graphics.hpp>
+//#include <SFML/Graphics.hpp>
+#include "init.hpp"
+
 
 #define WIDTH 800
 #define HEIGHT 600
 
-enum mode{
-    main_window
-};
 
 class TowerDefence{
 public:
-    TowerDefence() : window(sf::VideoMode(WIDTH,HEIGHT),"Tower Defence"), delay(sf::milliseconds(10)), window_mode(mode::main_window) {}; 
+    TowerDefence(sf::RenderWindow& win) : window(win), delay(sf::milliseconds(10)), window_mode(mode::main_window) {}; 
     void run();
 private:
-    sf::RenderWindow window;
+    sf::RenderWindow& window;
     sf::Time delay;
-    mode window_mode;
+    Status window_mode;
+    sf::Font font_;
+    std::vector<SquareButton> sb_vector;
 protected:
     void init();
     void update();

@@ -129,6 +129,54 @@ tower_defence/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/build
 .PHONY : tower_defence/fast
 
+src/Clickable.obj: src/Clickable.cpp.obj
+.PHONY : src/Clickable.obj
+
+# target to build an object file
+src/Clickable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj
+.PHONY : src/Clickable.cpp.obj
+
+src/Clickable.i: src/Clickable.cpp.i
+.PHONY : src/Clickable.i
+
+# target to preprocess a source file
+src/Clickable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Clickable.cpp.i
+.PHONY : src/Clickable.cpp.i
+
+src/Clickable.s: src/Clickable.cpp.s
+.PHONY : src/Clickable.s
+
+# target to generate assembly for a file
+src/Clickable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Clickable.cpp.s
+.PHONY : src/Clickable.cpp.s
+
+src/SquareButton.obj: src/SquareButton.cpp.obj
+.PHONY : src/SquareButton.obj
+
+# target to build an object file
+src/SquareButton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj
+.PHONY : src/SquareButton.cpp.obj
+
+src/SquareButton.i: src/SquareButton.cpp.i
+.PHONY : src/SquareButton.i
+
+# target to preprocess a source file
+src/SquareButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/SquareButton.cpp.i
+.PHONY : src/SquareButton.cpp.i
+
+src/SquareButton.s: src/SquareButton.cpp.s
+.PHONY : src/SquareButton.s
+
+# target to generate assembly for a file
+src/SquareButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/SquareButton.cpp.s
+.PHONY : src/SquareButton.cpp.s
+
 src/TowerDefence.obj: src/TowerDefence.cpp.obj
 .PHONY : src/TowerDefence.obj
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tower_defence"
+	@echo "... src/Clickable.obj"
+	@echo "... src/Clickable.i"
+	@echo "... src/Clickable.s"
+	@echo "... src/SquareButton.obj"
+	@echo "... src/SquareButton.i"
+	@echo "... src/SquareButton.s"
 	@echo "... src/TowerDefence.obj"
 	@echo "... src/TowerDefence.i"
 	@echo "... src/TowerDefence.s"

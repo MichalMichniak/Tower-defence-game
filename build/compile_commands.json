@@ -8,5 +8,15 @@
   "directory": "C:/D/VS_cpp/Tower-defence-game/build",
   "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/TowerDefence.cpp",
   "file": "C:/D/VS_cpp/Tower-defence-game/src/TowerDefence.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/Clickable.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/Clickable.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp"
 }
 ]
