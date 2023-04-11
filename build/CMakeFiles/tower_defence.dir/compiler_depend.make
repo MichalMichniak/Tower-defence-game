@@ -776,8 +776,9 @@ CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj: C:/D/VS_cpp/Tower-defence
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/Status.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/Button.hpp \
-  C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
-  C:/D/VS_cpp/Tower-defence-game/include/SquareButton.hpp
+  C:/D/VS_cpp/Tower-defence-game/include/SwitchDisplayButton.hpp \
+  C:/D/VS_cpp/Tower-defence-game/include/SquareButton.hpp \
+  C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp
 
 CMakeFiles/tower_defence.dir/src/main.cpp.obj: C:/D/VS_cpp/Tower-defence-game/src/main.cpp \
   C:/msys64/mingw64/include/stdio.h \
@@ -1032,8 +1033,9 @@ CMakeFiles/tower_defence.dir/src/main.cpp.obj: C:/D/VS_cpp/Tower-defence-game/sr
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/Status.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/Button.hpp \
-  C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
+  C:/D/VS_cpp/Tower-defence-game/include/SwitchDisplayButton.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/SquareButton.hpp \
+  C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/TowerDefence.hpp \
   C:/D/VS_cpp/Tower-defence-game/include/init.hpp
 
@@ -1585,5 +1587,7 @@ C:/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc:
 C:/D/VS_cpp/Tower-defence-game/src/TowerDefence.cpp:
 
 C:/D/VS_cpp/Tower-defence-game/include/Button.hpp:
+
+C:/D/VS_cpp/Tower-defence-game/include/SwitchDisplayButton.hpp:
 
 C:/D/VS_cpp/Tower-defence-game/src/main.cpp:

@@ -15,8 +15,12 @@ void SquareButton::mouse_over(float x, float y){
     }
 }
 
+void SquareButton::action(){};
+
 void SquareButton::mouse_clicked(float x, float y){
-    
+    if (check_if_over(x,y)){
+        action();
+    }
 }
 
 void SquareButton::draw(sf::RenderWindow& win){

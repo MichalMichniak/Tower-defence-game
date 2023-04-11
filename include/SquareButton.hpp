@@ -18,7 +18,7 @@ public:
     std::string txt_;
     SquareButton(float x, float y, std::string txt, float width, float length, sf::Font font): Clickable(x,y), txt_(txt), width_(width), length_(length), font_(font) {};
     SquareButton() = default;
-    //virtual void action();
+    virtual void action();
     bool check_if_over(float x,float y);
     void mouse_over(float x,float y);
     void mouse_clicked(float x,float y);

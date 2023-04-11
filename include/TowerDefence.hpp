@@ -19,6 +19,7 @@ private:
     Status window_mode;
     sf::Font font_;
     std::vector<SquareButton> sb_vector;
+    std::vector<SwitchDisplayButton> sdb_vector;
 protected:
     void init();
     void update();

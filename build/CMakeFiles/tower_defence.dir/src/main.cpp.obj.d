@@ -244,7 +244,8 @@ CMakeFiles/tower_defence.dir/src/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/Status.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/Button.hpp \
- C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/SwitchDisplayButton.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/SquareButton.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/TowerDefence.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/init.hpp

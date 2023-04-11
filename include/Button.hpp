@@ -1,8 +1,7 @@
 #ifndef BUTTON_HPP
 #define BUTTON_HPP
 
-#include "Clickable.hpp"
-#include "SquareButton.hpp"
 
+#include "SwitchDisplayButton.hpp"
 
 #endif

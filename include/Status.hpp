@@ -1,8 +1,9 @@
 #ifndef STATUS_HPP
-#define Status_HPP
+#define STATUS_HPP
 
 enum mode{
-    main_window
+    main_window,
+    game
 };
 
 class Status
