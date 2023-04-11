@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.15)
+
+project(simulation)
+
+set(CMAKE_CXX_STANDARD 23)
+
+#add_compile_options(-Wall -Wextra)
+
+
+set(GAME_SRC src/TowerDefence.cpp)
+
+find_package(SFML 2.5 COMPONENTS graphics window audio system REQUIRED)
+
+add_executable(tower_defence src/main.cpp ${GAME_SRC})
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+target_link_libraries(tower_defence PUBLIC sfml-graphics sfml-window sfml-audio sfml-system)
