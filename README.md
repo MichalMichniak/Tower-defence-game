@@ -1,4 +1,4 @@
-# Tower-defence-game
+# Tower-defence-game (Planing Stage)
 
 Achieved goals:
 - [x] Clickable
