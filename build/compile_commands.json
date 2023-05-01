@@ -18,5 +18,25 @@
   "directory": "C:/D/VS_cpp/Tower-defence-game/build",
   "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/SquareButton.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp",
   "file": "C:/D/VS_cpp/Tower-defence-game/src/SquareButton.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/MainMenu.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/MainMenu.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/MainMenu.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/GameStage.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/GameStage.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/GameStage.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/EnemyPath.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/EnemyPath.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/EnemyPath.cpp"
+},
+{
+  "directory": "C:/D/VS_cpp/Tower-defence-game/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/tower_defence.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles/tower_defence.dir/src/Enemy.cpp.obj -c C:/D/VS_cpp/Tower-defence-game/src/Enemy.cpp",
+  "file": "C:/D/VS_cpp/Tower-defence-game/src/Enemy.cpp"
 }
 ]

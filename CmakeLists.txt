@@ -9,11 +9,16 @@ set(CMAKE_CXX_STANDARD 23)
 
 set(GAME_SRC    src/TowerDefence.cpp 
                 src/Clickable.cpp
-                src/SquareButton.cpp)
+                src/SquareButton.cpp
+                src/MainMenu.cpp
+                src/GameStage.cpp
+                src/EnemyPath.cpp
+                src/Enemy.cpp)
 
 find_package(SFML 2.5 COMPONENTS graphics window audio system REQUIRED)
 
 add_executable(tower_defence src/main.cpp ${GAME_SRC})
 include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include/game_obj)
 
 target_link_libraries(tower_defence PUBLIC sfml-graphics sfml-window sfml-audio sfml-system)

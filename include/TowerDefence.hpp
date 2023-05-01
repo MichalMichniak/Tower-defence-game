@@ -18,6 +18,8 @@ private:
     sf::Time delay;
     Status window_mode;
     sf::Font font_;
+    MainMenu main_menu;
+    GameStage game_stage_;
     std::vector<SquareButton> sb_vector;
     std::vector<SwitchDisplayButton> sdb_vector;
 protected:

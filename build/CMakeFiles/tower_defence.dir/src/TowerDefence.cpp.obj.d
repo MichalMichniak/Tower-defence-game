@@ -246,4 +246,10 @@ CMakeFiles/tower_defence.dir/src/TowerDefence.cpp.obj: \
  C:/D/VS_cpp/Tower-defence-game/include/Button.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/SwitchDisplayButton.hpp \
  C:/D/VS_cpp/Tower-defence-game/include/SquareButton.hpp \
- C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp
+ C:/D/VS_cpp/Tower-defence-game/include/Clickable.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/GameStage.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/Display.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/game_obj/init_game_obj.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/game_obj/EnemyPath.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/game_obj/Enemy.hpp \
+ C:/D/VS_cpp/Tower-defence-game/include/MainMenu.hpp

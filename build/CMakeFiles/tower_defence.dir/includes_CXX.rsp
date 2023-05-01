@@ -1,1 +1,1 @@
--I"C:/D/VS_cpp/Tower-defence-game/include" -isystem C:/SFML/include
+-I"C:/D/VS_cpp/Tower-defence-game/include" -I"C:/D/VS_cpp/Tower-defence-game/include/game_obj" -isystem C:/SFML/include

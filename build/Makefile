@@ -153,6 +153,102 @@ src/Clickable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Clickable.cpp.s
 .PHONY : src/Clickable.cpp.s
 
+src/Enemy.obj: src/Enemy.cpp.obj
+.PHONY : src/Enemy.obj
+
+# target to build an object file
+src/Enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Enemy.cpp.obj
+.PHONY : src/Enemy.cpp.obj
+
+src/Enemy.i: src/Enemy.cpp.i
+.PHONY : src/Enemy.i
+
+# target to preprocess a source file
+src/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Enemy.cpp.i
+.PHONY : src/Enemy.cpp.i
+
+src/Enemy.s: src/Enemy.cpp.s
+.PHONY : src/Enemy.s
+
+# target to generate assembly for a file
+src/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/Enemy.cpp.s
+.PHONY : src/Enemy.cpp.s
+
+src/EnemyPath.obj: src/EnemyPath.cpp.obj
+.PHONY : src/EnemyPath.obj
+
+# target to build an object file
+src/EnemyPath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/EnemyPath.cpp.obj
+.PHONY : src/EnemyPath.cpp.obj
+
+src/EnemyPath.i: src/EnemyPath.cpp.i
+.PHONY : src/EnemyPath.i
+
+# target to preprocess a source file
+src/EnemyPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/EnemyPath.cpp.i
+.PHONY : src/EnemyPath.cpp.i
+
+src/EnemyPath.s: src/EnemyPath.cpp.s
+.PHONY : src/EnemyPath.s
+
+# target to generate assembly for a file
+src/EnemyPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/EnemyPath.cpp.s
+.PHONY : src/EnemyPath.cpp.s
+
+src/GameStage.obj: src/GameStage.cpp.obj
+.PHONY : src/GameStage.obj
+
+# target to build an object file
+src/GameStage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/GameStage.cpp.obj
+.PHONY : src/GameStage.cpp.obj
+
+src/GameStage.i: src/GameStage.cpp.i
+.PHONY : src/GameStage.i
+
+# target to preprocess a source file
+src/GameStage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/GameStage.cpp.i
+.PHONY : src/GameStage.cpp.i
+
+src/GameStage.s: src/GameStage.cpp.s
+.PHONY : src/GameStage.s
+
+# target to generate assembly for a file
+src/GameStage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/GameStage.cpp.s
+.PHONY : src/GameStage.cpp.s
+
+src/MainMenu.obj: src/MainMenu.cpp.obj
+.PHONY : src/MainMenu.obj
+
+# target to build an object file
+src/MainMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/MainMenu.cpp.obj
+.PHONY : src/MainMenu.cpp.obj
+
+src/MainMenu.i: src/MainMenu.cpp.i
+.PHONY : src/MainMenu.i
+
+# target to preprocess a source file
+src/MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/MainMenu.cpp.i
+.PHONY : src/MainMenu.cpp.i
+
+src/MainMenu.s: src/MainMenu.cpp.s
+.PHONY : src/MainMenu.s
+
+# target to generate assembly for a file
+src/MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tower_defence.dir/build.make CMakeFiles/tower_defence.dir/src/MainMenu.cpp.s
+.PHONY : src/MainMenu.cpp.s
+
 src/SquareButton.obj: src/SquareButton.cpp.obj
 .PHONY : src/SquareButton.obj
 
@@ -237,6 +333,18 @@ help:
 	@echo "... src/Clickable.obj"
 	@echo "... src/Clickable.i"
 	@echo "... src/Clickable.s"
+	@echo "... src/Enemy.obj"
+	@echo "... src/Enemy.i"
+	@echo "... src/Enemy.s"
+	@echo "... src/EnemyPath.obj"
+	@echo "... src/EnemyPath.i"
+	@echo "... src/EnemyPath.s"
+	@echo "... src/GameStage.obj"
+	@echo "... src/GameStage.i"
+	@echo "... src/GameStage.s"
+	@echo "... src/MainMenu.obj"
+	@echo "... src/MainMenu.i"
+	@echo "... src/MainMenu.s"
 	@echo "... src/SquareButton.obj"
 	@echo "... src/SquareButton.i"
 	@echo "... src/SquareButton.s"

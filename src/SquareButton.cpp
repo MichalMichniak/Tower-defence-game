@@ -1,5 +1,4 @@
 #include "SquareButton.hpp"
-
 #include <cmath>
 /* implementation of SquareButton class methods*/
 
